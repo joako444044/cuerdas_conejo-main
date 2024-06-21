@@ -58,7 +58,8 @@ function setup() {
     btn_silence.position(50, 10);
     btn_silence.size(50,50);
     btn_silence.mouseClicked(swich);
-    
+    bunny.debug = false;
+    bunny.setCollider("circle",0,0,200)
     bunny.animation.frameDelay = 10;
 }
 
